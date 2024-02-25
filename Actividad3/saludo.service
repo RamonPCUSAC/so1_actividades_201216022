@@ -1,0 +1,9 @@
+[Unit]
+Description=Saludo infinito con fecha actual
+
+[Service]
+ExecStart=/home/ramon/Documents/so1_actividades_201216022/Actividad3/saludo.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
